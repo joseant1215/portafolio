@@ -1,0 +1,33 @@
+/* Variables de estilo */
+$primary-color: #ffcc00;
+$secondary-color: #333;
+$font-stack: 'Arial', sans-serif;
+
+/* Estilos globales */
+body {
+  font-family: $font-stack;
+  background-color: #f8f9fa;
+  color: $secondary-color;
+}
+
+/* Header */
+header {
+  background-image: url('https://via.placeholder.com/1200x800'); /* Reemplaza con tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: $primary-color;
+  }
+}
