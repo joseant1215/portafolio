@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
 
 
 *,
@@ -9,7 +10,6 @@
   box-sizing: border-box;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
 
 html, body {
   height: 100%;
