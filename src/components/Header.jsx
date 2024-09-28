@@ -6,9 +6,9 @@
   const Header = props => {
     return (
       <header id="welcome-section">
-        <div className="forest" />
-        <div className="silhouette" />
-        <div className="moon" />
+        {/* <div className="forest" /> */}
+        {/* <div className="silhouette" /> */}
+        {/* <div className="moon" /> */}
         <div className="container">
           <h1>
             <span className="line">I do</span>

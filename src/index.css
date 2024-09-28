@@ -33,7 +33,7 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #f300b4;
+  color: #022540;
 }
 
 
@@ -58,7 +58,7 @@ a:active {
   right: 0;
   height: calc( 100vh - 120px );
   width: calc( 100vw - 120px );
-  background: #fafafa;
+  /* background: #fafafa; */
 }
 
 .menu-container.active > .overlay {
@@ -95,7 +95,7 @@ a:active {
   height: 100vh;
   width: 100vw;
   background: #202934;
-  border: 60px solid #181d23;
+  /* border: 60px solid #181d23; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,11 +113,11 @@ a:active {
 }
 
 .menu-container::before {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true); */
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x;
+  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x; */
 }
 
 .menu-container.deactive {
@@ -214,7 +214,7 @@ a:active {
 
 .menu-container ul li a:hover::after {
   content: ' »';
-  color: #f300b4;
+  color: #022540;
 }
 
 .social {
@@ -233,7 +233,7 @@ a:active {
 
 .menu-container a:hover,
 .menu-container a:active {
-  color: #f300b4;
+  color: #022540;
 }
 
 @media only screen and (max-width: 649px) {
@@ -302,7 +302,7 @@ a:active {
 }
 
 #navbar.bg-active {
-  background: #181d23;
+  /* background: #181d23; */
 }
 
 #navbar .nav-wrapper {
@@ -357,7 +357,7 @@ a:active {
 .menu-button:hover > span,
 .menu-button:hover > span::before,
 .menu-button:hover > span::after {
-  background: #f300b4;
+  background: #022540;
 }
 
 .menu-button.active > span  {
@@ -410,7 +410,8 @@ a:active {
 #welcome-section::before {
   content: '';
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(https://cdn-blog.superprof.com/blog_cl/wp-content/uploads/2022/04/programador-informatico.png.webp);      
+  /* background: url(https://cdn-blog.superprof.com/blog_mx/wp-content/uploads/2021/08/laptop.jpg); */
   background-attachment: fixed;
   width: 100%;
   min-height: 100vh;
@@ -433,7 +434,7 @@ a:active {
   position: absolute;
   bottom: -300px;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x;
+  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x; */
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -555,14 +556,14 @@ a:active {
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
-  border: 1px solid #f300b4;
+  border: 1px solid #022540;
   transform: translateY(-2px);
-  box-shadow: 0 10px 100px -20px #f300b4;
+  box-shadow: 0 10px 100px -20px #022540;
 }
 
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
-  background: #f300b4;
+  background: #022540;
   border: 1px solid transparent;
   color: #fafafa;
   font-weight: bold;
@@ -571,7 +572,7 @@ a:active {
 #welcome-section .container .buttons a.cta:hover,
 #welcome-section .container .buttons a.cta:active {
   background: transparent;
-  border: 1px solid #f300b4;
+  border: 1px solid #022540;
 }
 
 #welcome-section .container .buttons a:first-child {
@@ -583,7 +584,7 @@ a:active {
 }
 
 .color {
-  color: #f300b4;
+  color: #022540;
   font-style: italic;
 }
 
@@ -634,7 +635,10 @@ a:active {
   background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat;
+  /* background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat; */
+  /* background: #fafafa url(https://themewagon.github.io/mini-profile/img/mini-profile-bg-02.jpg) center right no-repeat; */
+  background: #fafafa url(https://www.emagister.com/blog/wp-content/uploads/2022/02/pexels-negative-space-169573-scaled.jpg) center right no-repeat;
+  
   background-attachment: fixed;
 }
 
@@ -665,7 +669,7 @@ a:active {
 }
 
 #about .separator {
-  background: #f300b4;
+  background: #022540;
   width: 150px;
   height: 2px;
   margin: 1rem 0;
@@ -750,7 +754,7 @@ a:active {
 
 #projects a,
 #projects a:visited {
-  color: #f300b4;
+  color: #022540;
 }
 
 #projects a:hover,
@@ -774,7 +778,7 @@ a:active {
 }
 
 #projects .heading .separator {
-  background: #f300b4;
+  background: #022540;
   width: 150px;
   height: 2px;
   margin: 1rem auto;
@@ -838,7 +842,7 @@ a:active {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
-  color: #f300b4;
+  color: #022540;
 }
 
 /* Icons */
@@ -872,7 +876,7 @@ a:active {
   width: 49%;
   padding: .5rem;
   border: none;
-  border-bottom: 1px solid #f300b4;
+  border-bottom: 1px solid #022540;
   color: #252934;
   background: #fafafa;
   font-size: 1.2rem;
@@ -880,7 +884,7 @@ a:active {
 }
 
 #projects .project-details .buttons a:hover {
-  background: #f300b4;
+  background: #022540;
   color: #fafafa;
 }
 #projects .project-details .buttons i {
@@ -959,7 +963,7 @@ a:active {
 }
 
 #contact .heading-wrapper .social a:hover {
-  color: #f300b4;
+  color: #022540;
 }
 
 .heading-wrapper .heading .title {
@@ -968,7 +972,7 @@ a:active {
 }
 
 .heading-wrapper .heading .separator {
-  background: #f300b4;
+  background: #022540;
   width: 150px;
   height: 2px;
   margin: 1rem 0;
@@ -1009,11 +1013,11 @@ input[type="email"]:focus,
 input[type="text"]:not(output):focus,
 input[type="email"]:not(output):focus,
 textarea:focus {
-  border-bottom: 1px solid #f300b4;
+  border-bottom: 1px solid #022540;
 }
 
 input[type="submit"] {
-  background: #f300b4;
+  background: #022540;
   color: #fafafa;
   margin-top: 1rem;
   width: auto;
@@ -1040,7 +1044,7 @@ input[type="submit"]:focus {
 .mail .at, .mail .dot {
   font-size: .9rem;
   margin: 0 .1rem;
-  color: #f300b4;
+  color: #022540;
 }
 
 
